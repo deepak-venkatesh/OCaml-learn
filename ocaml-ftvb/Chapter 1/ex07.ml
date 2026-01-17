@@ -1,0 +1,1 @@
+(* just so that there is no ambiguity as such. In C for instance we use 0 and 1 and it is confusing - K&R C*)
