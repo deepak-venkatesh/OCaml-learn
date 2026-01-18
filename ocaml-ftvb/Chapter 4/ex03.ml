@@ -39,3 +39,6 @@ let palindrome_maker lst = lst @ (cdr (reverse_tail lst))
 
 (* predicate function to check whether a list is a palindrome or not *)
 
+let palindrome_test lst = 
+  if lst = (reverse_tail lst) then true else false
+
