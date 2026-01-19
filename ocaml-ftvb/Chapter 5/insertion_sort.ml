@@ -1,0 +1,14 @@
+(* insertion sort algorithm *)
+
+let rec insert x lst = 
+  match lst with
+  [] -> [x]
+  | h::t -> if x <=h
+              then x::h::t
+              else h::insert x t
+
+let rec sort lst =
+  match lst with
+  [] -> []
+  | h::t -> insert h (sort t)
+
