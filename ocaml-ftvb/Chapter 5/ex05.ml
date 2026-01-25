@@ -11,6 +11,10 @@ In this example the sorted list should be in the order of 'one' 'three' 'two'
 test in insertion sort below
 *)
 
+(*
+
 utop # sort [['o';'n';'e'];['t';'w';'o'];['t';'h';'r';'e';'e']];;
 - : char list list =
 [['o'; 'n'; 'e']; ['t'; 'h'; 'r'; 'e'; 'e']; ['t'; 'w'; 'o']]
+
+*)

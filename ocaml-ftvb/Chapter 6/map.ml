@@ -6,6 +6,3 @@ let rec map f lst =
   | h :: t -> f h :: map f t
 
 let halve x = x / 2
-
-
-
